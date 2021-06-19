@@ -1,0 +1,1021 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="102" width="228" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="1" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="816" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Beer Analysis</Text>
+          <Font name="Century Gothic" size="18" style="0" />
+          <TextColor r="0" g="131" b="204" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="126" y="102" width="123" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>KPI:</Text>
+          <Font name="Arial" size="9" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="150" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>LAST MODIFIED DATE:</Text>
+          <Font name="Arial" size="9" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="198" y="102" width="96" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data Warehousing and BI</Text>
+          <Font name="Arial" size="9" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="150" width="83" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>05/17/2021</Text>
+          <Font name="Arial" size="9" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="102" width="100" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Group Project</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="113" y="402" width="2182" height="794" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Beer Analysis</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="173" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>beers.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="brewery_id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="cat_id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="style_id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="abv" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="ibu" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="srm" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="upc" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="filepath" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="add_user" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+                <Field name="last_mod" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\beers.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="174" y="653" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>breweries.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="address1" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="address2" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="city" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="state" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="code" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="country" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="phone" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="website" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="filepath" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="add_user" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+                <Field name="last_mod" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\breweries.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="173" y="1013" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\styles.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>styles.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\styles.csv" type="V_String" />
+                <Field name="cat_id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\styles.csv" type="V_String" />
+                <Field name="style_name" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\styles.csv" type="V_String" />
+                <Field name="last_mod" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\styles.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="293" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="id" selected="True" rename="Beer_id" />
+                <SelectField field="brewery_id" selected="True" />
+                <SelectField field="name" selected="True" rename="Beer" />
+                <SelectField field="cat_id" selected="True" />
+                <SelectField field="style_id" selected="True" />
+                <SelectField field="abv" selected="True" />
+                <SelectField field="ibu" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="294" y="653" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="id" selected="True" />
+                <SelectField field="name" selected="True" rename="Brewery" />
+                <SelectField field="address1" selected="True" />
+                <SelectField field="address2" selected="True" />
+                <SelectField field="city" selected="True" />
+                <SelectField field="state" selected="True" />
+                <SelectField field="code" selected="True" />
+                <SelectField field="country" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="294" y="1014" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="450" y="557" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="brewery_id" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="id" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Beer_id" selected="True" input="Left_" />
+                    <SelectField field="Left_brewery_id" selected="True" input="Left_" />
+                    <SelectField field="Left_Beer" selected="True" input="Left_" />
+                    <SelectField field="Right_Brewery" selected="True" input="Right_" />
+                    <SelectField field="Left_cat_id" selected="True" input="Left_" />
+                    <SelectField field="Left_style_id" selected="True" input="Left_" />
+                    <SelectField field="Left_abv" selected="True" input="Left_" />
+                    <SelectField field="Left_ibu" selected="True" input="Left_" />
+                    <SelectField field="Right_id" selected="False" rename="Right_id" input="Right_" />
+                    <SelectField field="Right_address1" selected="True" input="Right_" />
+                    <SelectField field="Right_address2" selected="True" input="Right_" />
+                    <SelectField field="Right_city" selected="True" input="Right_" />
+                    <SelectField field="Right_state" selected="True" input="Right_" />
+                    <SelectField field="Right_code" selected="True" input="Right_" />
+                    <SelectField field="Right_country" selected="True" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="498" y="844" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="style_id" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="id" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_cat_id" selected="True" rename="Right_cat_id" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1206" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Beer_id" selected="False" />
+                <SelectField field="brewery_id" selected="False" />
+                <SelectField field="Beer" selected="True" />
+                <SelectField field="Brewery" selected="True" />
+                <SelectField field="style_name" selected="True" />
+                <SelectField field="city" selected="True" />
+                <SelectField field="state" selected="True" />
+                <SelectField field="country" selected="True" />
+                <SelectField field="abv" selected="True" type="Double" size="8" />
+                <SelectField field="ibu" selected="True" type="Double" size="8" />
+                <SelectField field="Right_latitude" selected="True" rename="Latitude" />
+                <SelectField field="Right_longitude" selected="True" rename="Longitude" />
+                <SelectField field="cat_id" selected="False" />
+                <SelectField field="style_id" selected="False" />
+                <SelectField field="address1" selected="False" />
+                <SelectField field="address2" selected="False" />
+                <SelectField field="code" selected="False" />
+                <SelectField field="id" selected="False" />
+                <SelectField field="Right_cat_id" selected="False" />
+                <SelectField field="last_mod" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1530" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[city]+&quot;,&quot;+[state]+ &quot;,&quot;+ [country]" field="Location" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Location = [city]+","+[state]+ ","+ [country]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings>
+            <Position x="1758" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model name">Group</Value>
+              <Value name="the fields">ABV + IBU</Value>
+              <Value name="standardize">False</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">True</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">False</Value>
+              <Value name="num clus">4</Value>
+              <Value name="num seeds">10</Value>
+              <Value name="plot points">True</Value>
+              <Value name="plot centroids">False</Value>
+              <Value name="max comp">2</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="2147483647" source="Report: (Multiple Sources)" type="V_String" />
+                <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1626" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Beer" selected="True" rename="Beer_Name" />
+                <SelectField field="Brewery" selected="True" rename="Brewery_Name" />
+                <SelectField field="Location" selected="True" />
+                <SelectField field="style_name" selected="True" rename="Style_Name" />
+                <SelectField field="abv" selected="True" rename="ABV" />
+                <SelectField field="ibu" selected="True" rename="IBU" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude" selected="True" />
+                <SelectField field="country" selected="True" />
+                <SelectField field="city" selected="False" />
+                <SelectField field="state" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1794" y="954" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_26432_99a7aff1e7394f1699ccbccbde6adb4b_\Engine_22464_be8003dbdae14f7f8424aac7d2186803_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1782" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\hp\AppData\Local\Temp\Engine_26432_99a7aff1e7394f1699ccbccbde6adb4b_\Engine_22464_feb8780d08324deb8818f603dfd0087c_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings>
+            <Position x="1962" y="1014" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="clus name">Cluster</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Beer_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Brewery_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Location" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Style_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="ABV" source="R-DATA:" type="Double" />
+                <Field name="IBU" source="R-DATA:" type="Double" />
+                <Field name="Latitude" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Longitude" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="country" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Cluster" source="R-DATA:" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2130" y="1014" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Output\K_Means_Analysis.xlsx|||Sheet1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>RemoveFile</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>K_Means_Analysis.xlsx
+Query=Sheet1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="581" y="1061" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\geocodes.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>geocodes.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\geocodes.csv" type="V_String" />
+                <Field name="brewery_id" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\geocodes.csv" type="V_String" />
+                <Field name="latitude" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\geocodes.csv" type="V_String" />
+                <Field name="longitude" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\geocodes.csv" type="V_String" />
+                <Field name="accuracy" size="254" source="File: C:\Users\hp\Desktop\Summer Semester\Summer First Half\Data Warehousing\Project\Data\geocodes.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="846" y="1050" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="brewery_id" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="brewery_id" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Beer_id" selected="False" input="Left_" />
+                    <SelectField field="Left_Beer" selected="False" input="Left_" />
+                    <SelectField field="Left_Brewery" selected="False" input="Left_" />
+                    <SelectField field="Left_cat_id" selected="False" input="Left_" />
+                    <SelectField field="Left_style_id" selected="False" input="Left_" />
+                    <SelectField field="Left_abv" selected="False" input="Left_" />
+                    <SelectField field="Left_ibu" selected="False" input="Left_" />
+                    <SelectField field="Left_address1" selected="False" input="Left_" />
+                    <SelectField field="Left_address2" selected="False" input="Left_" />
+                    <SelectField field="Left_city" selected="False" input="Left_" />
+                    <SelectField field="Left_state" selected="False" input="Left_" />
+                    <SelectField field="Left_code" selected="False" input="Left_" />
+                    <SelectField field="Left_country" selected="False" input="Left_" />
+                    <SelectField field="Left_id" selected="False" input="Left_" />
+                    <SelectField field="Left_Right_cat_id" selected="False" input="Left_" />
+                    <SelectField field="Left_style_name" selected="False" input="Left_" />
+                    <SelectField field="Left_last_mod" selected="False" input="Left_" />
+                    <SelectField field="Right_id" selected="False" rename="Right_id" input="Right_" />
+                    <SelectField field="Right_brewery_id" selected="False" rename="Right_brewery_id" input="Right_" />
+                    <SelectField field="Right_latitude" selected="True" rename="Right_latitude" input="Right_" />
+                    <SelectField field="Right_longitude" selected="True" rename="Right_longitude" input="Right_" />
+                    <SelectField field="Right_accuracy" selected="False" rename="Right_accuracy" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="749" y="1062" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="1062" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>brewery_id</FieldFind>
+              <FieldSearch>brewery_id</FieldSearch>
+              <ReplaceFoundField>Right_longitude</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Right_latitude" />
+                <Field field="Right_longitude" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1326" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>!=</Operator>
+                <Field>abv</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-05-17 20:59:50</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>0</Operand>
+                  <StartDate>2021-05-17 20:59:50</StartDate>
+                  <EndDate>2021-05-17 20:59:50</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[abv] != 0</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings>
+            <Position x="1446" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"abv","ibu"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="32" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="32" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Join" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Join" />
+      <Destination ToolID="46" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="46" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Join" />
+      <Destination ToolID="49" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Join" />
+      <Destination ToolID="49" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Reports" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="40" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="40" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="36" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="True" />
+      <Destination ToolID="51" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Beer</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
